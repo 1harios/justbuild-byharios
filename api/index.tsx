@@ -40,6 +40,7 @@ const images = [
   { id: '11', url: '/images/img11.png' },
   { id: '12', url: '/images/img12.png' },
   { id: '13', url: '/images/img13.png' },
+  { id: '14', url: '/images/img14.png' },
 ];
 
 app.frame('/', (c) => {
