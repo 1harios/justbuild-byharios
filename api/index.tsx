@@ -9,7 +9,7 @@ import { randomInt } from 'crypto';
 
 const baseUrl = "https://warpcast.com/~/compose";
 const text = "Find out what kind of 👷 JustBuilder you are\n/justbuild";
-const embedUrl = "https://by-harios-justbuild.vercel.app/api/frame";
+const embedUrl = "https://justbuild-byharios.vercel.app/api/frame";
 
 const BROWSER_LOCATION = `${baseUrl}?text=${encodeURIComponent(text)}&embeds[]=${encodeURIComponent(embedUrl)}`;
 
@@ -55,7 +55,7 @@ app.frame('/button-pressed', (c) => {
 
   const baseUrl = "https://warpcast.com/~/compose";
   const text = ">Find out what kind of 👷 JustBuilder you are\n/justbuild";
-  const embedUrlByUser = `https://by-harios-justbuild.vercel.app/api/frame/shared/${selectedImage.id}`;
+const embedUrlByUser = `https://justbuild-byharios.vercel.app/api/frame/shared/${selectedImage.id}`;
 
   const SHARE_BY_USER = `${baseUrl}?text=${encodeURIComponent(text)}&embeds[]=${encodeURIComponent(embedUrlByUser)}`;
 
