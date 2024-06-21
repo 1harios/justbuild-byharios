@@ -8,7 +8,7 @@ import { randomInt } from 'crypto';
 // import { serveStatic } from 'frog/serve-static';
 
 const baseUrl = "https://warpcast.com/~/compose";
-const text = "Find out what kind of 👷 JustBuilder you are\n/justbuild";
+const text = "Find out what kind of 👷 JustBuilder you are\n/justbuild Frame by @harios";
 const embedUrl = "https://justbuild-byharios.vercel.app/api/frame";
 
 const BROWSER_LOCATION = `${baseUrl}?text=${encodeURIComponent(text)}&embeds[]=${encodeURIComponent(embedUrl)}`;
@@ -54,7 +54,7 @@ app.frame('/button-pressed', (c) => {
   const selectedImage = images[randomIndex];
 
   const baseUrl = "https://warpcast.com/~/compose";
-  const text = ">Find out what kind of 👷 JustBuilder you are\n/justbuild";
+  const text = ">Find out what kind of 👷 JustBuilder you are\n/justbuild Frame by @harios";
 const embedUrlByUser = `https://justbuild-byharios.vercel.app/api/frame/shared/${selectedImage.id}`;
 
   const SHARE_BY_USER = `${baseUrl}?text=${encodeURIComponent(text)}&embeds[]=${encodeURIComponent(embedUrlByUser)}`;
