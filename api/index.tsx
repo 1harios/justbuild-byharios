@@ -48,7 +48,7 @@ const images = [
 app.frame('/', (c) => {
   return c.res({
     title: 'JustBuilder',
-    image: '/Main.png',
+    image: '/Main.gif',
     intents: [
       <Button action="/button-pressed">Find out what kind of 👷 JustBuilder you are</Button>,
     ],
@@ -101,7 +101,7 @@ const embedUrlByUser = `https://justbuild-byharios.vercel.app/api/frame/shared/$
 
 app.frame('/shared/:imageId', (c) => {
   const imageId = c.req.param('imageId');
-  const selectedImage = images.find(img => img.id === imageId)?.url || '/Main.png';
+  const selectedImage = images.find(img => img.id === imageId)?.url || '/Main.gif';
 
   return c.res({
     title: 'Just Build',
