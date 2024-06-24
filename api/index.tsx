@@ -43,6 +43,17 @@ const images = [
   { id: '14', url: '/images/img14.png' },
   { id: '15', url: '/images/img15.png' },
   { id: '16', url: '/images/img16.png' },
+  { id: '17', url: '/images/img17.png' },
+  { id: '18', url: '/images/img18.png' },
+  { id: '19', url: '/images/img19.png' },
+  { id: '20', url: '/images/img20.png' },
+  { id: '21', url: '/images/img21.png' },
+  { id: '22', url: '/images/img22.png' },
+  { id: '23', url: '/images/img23.png' },
+  { id: '24', url: '/images/img24.png' },
+  { id: '25', url: '/images/img25.png' },
+  { id: '26', url: '/images/img26.png' },
+  { id: '27', url: '/images/img27.png' },
 ];
 
 app.frame('/', (c) => {
